@@ -1,5 +1,4 @@
 import React from 'react';
-// import styles from './Options.module.css'; // eğer CSS modülü kullanacaksanız
 
 function Options({ updateFeedback, resetFeedback, totalFeedback }) {
   return (
@@ -14,7 +13,7 @@ function Options({ updateFeedback, resetFeedback, totalFeedback }) {
         Bad
       </button>
 
-      {/* Reset butonu sadece totalFeedback > 0 ise gösterilsin */}
+      {}
       {totalFeedback > 0 && (
         <button type="button" onClick={resetFeedback}>
           Reset
